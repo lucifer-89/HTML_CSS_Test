@@ -1,2 +1,2 @@
-# UnixShellScriptTest
-Learning Unix/Linux shell scripting and practice codes
+# HTMLCSSTest
+Learning HTML & CSS scripting and practice codes
