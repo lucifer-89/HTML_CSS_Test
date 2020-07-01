@@ -7,14 +7,14 @@
     border-radius: 3px;
 }
 
-#registerForm h5 {
-    margin: 0;
-    font-size: 22px;
-    margin-bottom: 20px;
-    font-weight: normal;
-}
+    #registerForm h5 {
+        margin: 0;
+        font-size: 22px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
 
-#txtFirstName,#txtLastName,#txtEmail,#txtPassword {
+#txtFirstName, #txtLastName, #txtEmail, #txtPassword {
     background: #24303c;
     border: 1px solid #1f53c5;
     font-size: 18px;
