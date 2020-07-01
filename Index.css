@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.b1 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url(BuildingLandscapeBnW.jpg) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size: cover;
+}
