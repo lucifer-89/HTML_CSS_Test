@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="Stylesheet" href="StyleSheet/NavBarResponsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <title>NavBar</title>
+</head>
+<body>
+    <header>
+        <h1>DarkCode Website</h1>
+    </header>
+    <nav>
+        <div class="hide">
+            <i class="fa fa-bars" aria-hidden="true"></i>Menu
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Show</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <script type="text/javascript">
+        $('.hide').on('click', function () {
+            $('nav ul').toggleClass('show');
+        })
+    </script>
+</body>
+</html>
